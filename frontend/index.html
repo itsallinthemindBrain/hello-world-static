@@ -3,33 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Rey Joseph Enriquez - Software Developer specializing in .NET, Azure, and DevOps. Building reliable cloud-ready web applications." />
-    <meta name="theme-color" content="#1e3a8a" />
+    <meta name="description" content="RK Private Resort and Hotels - A 2-storey boutique family resort with 2 spacious rooms, perfect for family getaways in a serene environment." />
+    <meta name="theme-color" content="#fbbf24" />
     
     <!-- Open Graph / Social Media -->
-    <meta property="og:type" content="profile" />
-    <meta property="og:title" content="Rey Joseph Enriquez | Software Developer" />
-    <meta property="og:description" content="Full-stack developer specializing in .NET, Azure, and Azure DevOps. Focused on building reliable, maintainable applications." />
-    <meta property="og:url" content="https://rey-portfolio.azurestaticapps.net/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="RK Private Resort and Hotels" />
+    <meta property="og:description" content="Boutique 2-storey family resort with 2 big rooms offering world-class amenities and unforgettable family experiences." />
+    <meta property="og:url" content="https://rk-private-resort.azurestaticapps.net/" />
     
     <!-- Structured Data (JSON-LD) -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Rey Joseph C. Enriquez",
-      "url": "https://rey-portfolio.azurestaticapps.net/",
-      "jobTitle": "Software Developer",
-      "sameAs": [
-        "https://github.com/itsallinthemindBrain",
-        "https://linkedin.com/in/your-linkedin"
-      ],
-      "knowsAbout": ["C#", ".NET Core", "ASP.NET MVC", "Azure", "CI/CD Pipelines", "Azure DevOps", "Web APIs", "Clean Architecture"],
-      "resume": "Experienced software developer focused on building cloud-ready applications with modern DevOps practices."
+      "@type": "Hotel",
+      "name": "RK Private Resort and Hotels",
+      "url": "https://rk-private-resort.azurestaticapps.net/",
+      "description": "A 2-storey boutique family resort with 2 spacious rooms, providing exceptional hospitality and family-friendly amenities.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PH"
+      },
+      "telephone": "+63-XXX-XXXX",
+      "email": "info@rkprivateresort.com"
     }
     </script>
 
-    <title>Rey Joseph Enriquez | Software Developer · .NET · Azure · DevOps</title>
+    <title>RK Private Resort and Hotels | Luxury Accommodations</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
@@ -38,173 +38,121 @@
       <article class="card">
         <!-- Hero Section -->
         <header class="hero">
-          <img src="assets/profile.jpg" alt="Rey Joseph Enriquez profile photo" class="hero-avatar" loading="lazy" />
-          <h1 class="hero-name">Rey Joseph C. Enriquez</h1>
-          <p class="hero-role">Software Developer · .NET · Azure · DevOps</p>
+          <img src="assets/images/RKLogo.jpg" alt="RK Private Resort and Hotels Logo" class="hero-logo" loading="lazy" />
+          <h1 class="hero-name">RK's Private Resort and Hotels</h1>
           <p class="hero-tagline">
-            I build reliable, maintainable cloud-ready web applications with real CI/CD practices and modern architecture.
+            A cozy 2-storey family retreat with 2 spacious rooms designed for unforgettable family moments. Experience comfort, warmth, and hospitality in our intimate resort setting.
           </p>
         </header>
 
-        <!-- Technical Skills Section -->
-        <section class="section">
-          <h2 class="section-title">Technical Skills</h2>
-          <div class="skill-group">
-            <span class="skill">C# / .NET</span>
-            <span class="skill">ASP.NET MVC</span>
-            <span class="skill">.NET Core</span>
-            <span class="skill">Web APIs</span>
-            <span class="skill">Azure</span>
-            <span class="skill">Static Web Apps</span>
-            <span class="skill">CI/CD Pipelines</span>
-            <span class="skill">Azure DevOps</span>
-            <span class="skill">Git</span>
-            <span class="skill">Clean Architecture</span>
+        <!-- Rooms Section -->
+        <section class="section rooms">
+          <h2 class="section-title">Our Rooms</h2>
+          <p class="section-subtitle">Two spacious rooms, perfectly designed for family comfort and relaxation.</p>
+          <div class="rooms-grid">
+            <article class="room-card">
+              <img src="assets/images/room1.jpg" alt="Big Family Room - Ground Floor" class="room-image" loading="lazy" />
+              <h3 class="room-title">Big Family Room - Ground Floor</h3>
+              <p class="room-description">
+                A spacious ground floor room designed for families, featuring comfortable bedding, modern amenities, and direct access to resort amenities.
+              </p>
+              <div class="room-features">
+                <span class="feature">Multiple Beds</span>
+                <span class="feature">Family-Friendly</span>
+                <span class="feature">Direct Access</span>
+              </div>
+            </article>
+
+            <article class="room-card">
+              <img src="assets/images/room2.jpg" alt="Big Family Room - First Floor" class="room-image" loading="lazy" />
+              <h3 class="room-title">Big Family Room - First Floor</h3>
+              <p class="room-description">
+                Our second spacious room on the first floor, offering comfortable family accommodation with scenic views and all modern conveniences.
+              </p>
+              <div class="room-features">
+                <span class="feature">Multiple Beds</span>
+                <span class="feature">Scenic Views</span>
+                <span class="feature">Modern Comforts</span>
+              </div>
+            </article>
           </div>
         </section>
 
-        <!-- About Section -->
-        <section class="section about">
-          <h2 class="section-title">About Me</h2>
-          <p>
-            I'm a software developer with a passion for building scalable, maintainable applications on the cloud. 
-            With expertise in .NET technologies and Azure cloud services, I focus on delivering solutions that combine 
-            technical excellence with real-world DevOps practices.
-          </p>
-          <p>
-            I believe in writing clean, testable code and implementing proper CI/CD pipelines to ensure reliability 
-            and fast iteration. My professional journey spans full-stack development, cloud architecture, and DevOps automation.
-          </p>
+        <!-- Gallery Section -->
+        <section class="section gallery">
+          <h2 class="section-title">Gallery</h2>
+          <div class="gallery-grid">
+            <img src="assets/images/Exterior.jpg" alt="Hotel exterior" class="gallery-image" loading="lazy" />     
+            <img src="assets/images/Dinning.jpg" alt="Dining area" class="gallery-image" loading="lazy" />    
+            <img src="assets/images/DeluxeInterior.jpg" alt="Deluxe room interior" class="gallery-image" loading="lazy" />  
+            <img src="assets/images/FamilyVilla.jpg" alt="Family villa" class="gallery-image" loading="lazy" />         
         </section>
 
-        <!-- Experience Timeline Section -->
-        <section class="section experience">
-          <h2 class="section-title">Professional Experience</h2>
-          <div class="timeline">
-            <div class="timeline-item">
-              <div class="timeline-marker"></div>
-              <div class="timeline-content">
-                <h3 class="timeline-title">Software Developer</h3>
-                <time class="timeline-date" datetime="2023-01">January 2023 - Present</time>
-                <p class="timeline-company">Current Organization</p>
-                <ul class="timeline-description">
-                  <li>Developed and maintained .NET Core web applications with ASP.NET MVC architecture</li>
-                  <li>Designed and implemented RESTful Web APIs serving 100k+ daily requests</li>
-                  <li>Architected and deployed Azure infrastructure for production workloads</li>
-                  <li>Established CI/CD pipelines using Azure DevOps, reducing deployment time by 60%</li>
-                </ul>
-              </div>
+        <!-- Amenities Section -->
+        <section class="section amenities">
+          <h2 class="section-title">Amenities</h2>
+          <div class="amenities-grid">
+            <div class="amenity-item">
+              <img src="assets/images/SwimmingPool.jpg" alt="Swimming Pool" class="amenity-image" loading="lazy" />
+              <h3 class="amenity-title">Infinity Pool</h3>
+              <p class="amenity-description">Relax in our stunning infinity pool overlooking the ocean with panoramic views.</p>
             </div>
-            <div class="timeline-item">
-              <div class="timeline-marker"></div>
-              <div class="timeline-content">
-                <h3 class="timeline-title">Junior Developer</h3>
-                <time class="timeline-date" datetime="2021-06">June 2021 - December 2022</time>
-                <p class="timeline-company">Previous Position</p>
-                <ul class="timeline-description">
-                  <li>Built full-stack web applications using C# and modern front-end frameworks</li>
-                  <li>Implemented database schemas and optimized SQL queries for performance</li>
-                  <li>Collaborated with cross-functional teams in Agile environment</li>
-                  <li>Maintained and debugged legacy .NET Framework applications</li>
-                </ul>
-              </div>
+
+            <div class="amenity-item">
+              <img src="assets/images/Conference.jpg" alt="Conference Facilities" class="amenity-image" loading="lazy" />
+              <h3 class="amenity-title">Conference Center</h3>
+              <p class="amenity-description">Host successful events in our modern conference facilities with AV equipment and catering services.</p>
             </div>
           </div>
         </section>
 
-        <!-- Projects Showcase Section -->
-        <section class="section projects">
-          <h2 class="section-title">Featured Projects</h2>
-          <div class="projects-grid">
-            <article class="project-card">
-              <h3 class="project-title">Project Name One</h3>
-              <p class="project-description">
-                A cloud-native web application built with .NET Core and deployed on Azure Static Web Apps with automated CI/CD pipelines.
-              </p>
-              <div class="project-tags">
-                <span class="tag">.NET Core</span>
-                <span class="tag">Azure</span>
-                <span class="tag">CI/CD</span>
-              </div>
-              <div class="project-links">
-                <a href="#" class="project-link">GitHub Repo</a>
-                <a href="#" class="project-link">Live Demo</a>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <h3 class="project-title">Project Name Two</h3>
-              <p class="project-description">
-                RESTful API service with comprehensive documentation and automated testing. Scaled to handle millions of requests daily.
-              </p>
-              <div class="project-tags">
-                <span class="tag">Web API</span>
-                <span class="tag">Azure DevOps</span>
-                <span class="tag">Performance</span>
-              </div>
-              <div class="project-links">
-                <a href="#" class="project-link">Documentation</a>
-                <a href="#" class="project-link">View Code</a>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <h3 class="project-title">Project Name Three</h3>
-              <p class="project-description">
-                Full-stack SPA built with ASP.NET MVC backend and modern front-end framework. Implements clean architecture patterns.
-              </p>
-              <div class="project-tags">
-                <span class="tag">ASP.NET MVC</span>
-                <span class="tag">Clean Architecture</span>
-                <span class="tag">SPA</span>
-              </div>
-              <div class="project-links">
-                <a href="#" class="project-link">GitHub Repo</a>
-                <a href="#" class="project-link">Live Demo</a>
-              </div>
-            </article>
+        <!-- Contact Section -->
+        <section class="section contact">
+          <h2 class="section-title">Contact Us</h2>
+          <div class="contact-info">
+            <div class="contact-item">
+              <h3>Address</h3>
+              <p>RK Private Resort and Hotels<br>
+              Paradise Island, Philippines</p>
+            </div>
+            <div class="contact-item">
+              <h3>Phone</h3>
+              <p>+63 (539) 998-2367</p>
+            </div>
+            <div class="contact-item">
+              <h3>FB Page</h3>
+              <p>RK's Private Resort and Hotels</p>
+            </div>
+            <div class="contact-item">
+              <h3>Hours</h3>
+              <p>24/7 Reception<br>
+              Restaurant: 6:00 AM - 10:00 PM</p>
+            </div>
           </div>
-        </section>
-
-        <!-- Certifications Section -->
-        <section class="section">
-          <h2 class="section-title">Certifications</h2>
-          <ul class="certification-list">
-            <li>Microsoft Azure Fundamentals (AZ-900) - Microsoft</li>
-          </ul>
         </section>
 
         <!-- Contact / CTA Section -->
         <section class="section contact-cta">
-          <h2 class="section-title">Get In Touch</h2>
+          <h2 class="section-title">Experience Luxury in Affordable Price</h2>
           <p class="cta-description">
-            I'm always interested in connecting with fellow developers, discussing new projects, or exploring collaboration opportunities.
-          </p>
-          <div class="cta-links">
-            <a href="https://github.com/itsallinthemindBrain" class="cta-button github-btn" target="_blank" rel="noopener noreferrer">
-              <span>GitHub</span>
-            </a>
-            <a href="https://linkedin.com/in/your-linkedin" class="cta-button linkedin-btn" target="_blank" rel="noopener noreferrer">
-              <span>LinkedIn</span>
-            </a>
-            <a href="mailto:your.email@example.com" class="cta-button email-btn">
-              <span>Email</span>
-            </a>
-          </div>
+           We are always looking for ways to provide our guests with an exceptional experience without breaking the bank.
+          </p>  
+
         </section>
 
         <!-- Footer -->
         <footer class="footer">
           <p>
-            <a href="https://github.com/itsallinthemindBrain/KingOrg" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="mailto:rollygumpal5@gmail.com">Email</a>
             · 
-            <a href="https://linkedin.com/in/your-linkedin" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            ·
-            <a href="mailto:your.email@example.com">Email</a>
+            <a href="tel:+631234567890">Phone</a>
+            · 
+            <a href="#contact">Location</a>
           </p>
-          <p><small>Built with <strong>Azure Static Web Apps</strong> · Deployed via <strong>Azure DevOps</strong></small></p>
+          <p><small>© 2026 RK Private Resort and Hotels · Experience Luxury</small></p>
         </footer>
       </article>
     </main>
+    <script src="assets/js/scripts.js"></script>
   </body>
 </html>
