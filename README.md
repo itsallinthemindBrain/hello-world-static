@@ -5,7 +5,7 @@ A luxurious static website showcasing RK Private Resort and Hotels, featuring pr
 ## Features
 
 - **Responsive Design**: Optimized for all devices with glassmorphism styling
-- **Interactive Gallery**: 16 high-quality images with zoom hover effects
+- **Interactive Gallery**: high-quality images with zoom hover effects
 - **Room Showcase**: Detailed presentation of room types and features
 - **Amenities Overview**: Highlighting resort facilities and services
 - **Contact Information**: Direct access to reservation details
