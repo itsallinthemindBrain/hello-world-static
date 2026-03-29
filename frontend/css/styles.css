@@ -577,6 +577,33 @@ body {
   color: rgba(226, 232, 240, 0.85);
 }
 
+/* ===== FACEBOOK LINK ===== */
+.fb-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: rgba(226, 232, 240, 0.85);
+  font-size: 0.9rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.fb-link:hover {
+  color: #1877F2;
+  transform: translateY(-1px);
+}
+
+.fb-link--footer {
+  font-weight: 500;
+  color: #2563eb;
+  font-size: 0.85rem;
+}
+
+.fb-link--footer:hover {
+  color: #3b82f6;
+  text-decoration: underline;
+}
+
 /* ===== FOOTER ===== */
 .footer {
   margin-top: 40px;
